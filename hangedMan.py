@@ -89,8 +89,6 @@ def game():
     clue = word_length * ["_"]
     tries = 6
     letters_tried = ""
-    guesses = 0
-    letters_right = 0
     letters_wrong = 0
     global computer_score, player_score
 
